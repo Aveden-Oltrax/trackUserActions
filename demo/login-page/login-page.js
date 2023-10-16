@@ -1,7 +1,7 @@
 // apply track user plugin
 trackUser.start({
   mouseMovement: true,
-  processTime: 5,
+  processTime: 1,
   processData: function(results){
     console.log(JSON.stringify(results));
   },

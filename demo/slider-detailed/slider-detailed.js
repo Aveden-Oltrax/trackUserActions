@@ -57,7 +57,7 @@ function update(slider,val) {
 // apply track user plugin
 trackUser.start({
   mouseMovement: true,
-  processTime: 5,
+  processTime: 10,
   processData: function(results){
     console.log(JSON.stringify(results));
   },
